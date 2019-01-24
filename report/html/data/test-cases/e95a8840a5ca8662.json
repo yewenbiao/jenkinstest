@@ -1,0 +1,60 @@
+{
+  "uid" : "e95a8840a5ca8662",
+  "name" : "test_a",
+  "fullName" : "test_functons.test_a",
+  "historyId" : "b81b44d0da3de2f3a0276bd52f93356e",
+  "time" : {
+    "start" : 1548314949434,
+    "stop" : 1548314949434,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "ywb"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7188-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_functons"
+  }, {
+    "name" : "testClass",
+    "value" : "test_functons"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_a"
+  }, {
+    "name" : "package",
+    "value" : "test_functons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e95a8840a5ca8662.json",
+  "parameterValues" : [ ]
+}

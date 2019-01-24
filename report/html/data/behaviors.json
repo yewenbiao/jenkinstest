@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_a",
+    "uid" : "e95a8840a5ca8662",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548314949434,
+      "stop" : 1548314949434,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_b",
+    "uid" : "388ef4b28bc08bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1548314949434,
+      "stop" : 1548314949481,
+      "duration" : 47
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

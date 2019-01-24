@@ -1,0 +1,112 @@
+{
+  "uid" : "388ef4b28bc08bf",
+  "name" : "test_b",
+  "fullName" : "test_functons.test_b",
+  "historyId" : "638704e9920061c1c780f5d1e3fc706a",
+  "time" : {
+    "start" : 1548314949434,
+    "stop" : 1548314949481,
+    "duration" : 47
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "@allure.step(title = '测试登录的流程')\n    def test_b():\n        allure.attach(\"登录\",\"输入用户名\")\n        print(\"sdfsdfsdfsd\") #找登录名\n        allure.attach(\"登录\", \"输入密码\")\n        print(\"sdfsdfsdfsd\")  # 找密码\n        allure.attach(\"登录\", \"点击登录\")\n        print(\"sdfsdfsdfsd\")  # 登录\n>       assert 0\nE       assert 0\n\nscripts\\test_functons.py:16: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "@allure.step(title = '测试登录的流程')\n    def test_b():\n        allure.attach(\"登录\",\"输入用户名\")\n        print(\"sdfsdfsdfsd\") #找登录名\n        allure.attach(\"登录\", \"输入密码\")\n        print(\"sdfsdfsdfsd\")  # 找密码\n        allure.attach(\"登录\", \"点击登录\")\n        print(\"sdfsdfsdfsd\")  # 登录\n>       assert 0\nE       assert 0\n\nscripts\\test_functons.py:16: AssertionError",
+    "steps" : [ {
+      "name" : "测试登录的流程",
+      "time" : {
+        "start" : 1548314949434,
+        "stop" : 1548314949434,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "@allure.step(title = '测试登录的流程')\n    def test_b():\n        allure.attach(\"登录\",\"输入用户名\")\n        print(\"sdfsdfsdfsd\") #找登录名\n        allure.attach(\"登录\", \"输入密码\")\n        print(\"sdfsdfsdfsd\")  # 找密码\n        allure.attach(\"登录\", \"点击登录\")\n        print(\"sdfsdfsdfsd\")  # 登录\n>       assert 0\nE       assert 0\n\nscripts\\test_functons.py:16: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "112d0a466bf541aa",
+        "name" : "登录",
+        "source" : "112d0a466bf541aa.txt",
+        "type" : "text/plain",
+        "size" : 15
+      }, {
+        "uid" : "64b54ba6928c0103",
+        "name" : "登录",
+        "source" : "64b54ba6928c0103.txt",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "e68281abe15e02b9",
+        "name" : "登录",
+        "source" : "e68281abe15e02b9.txt",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "ywb"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "7188-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_functons"
+  }, {
+    "name" : "testClass",
+    "value" : "test_functons"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_b"
+  }, {
+    "name" : "package",
+    "value" : "test_functons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "388ef4b28bc08bf.json",
+  "parameterValues" : [ ]
+}

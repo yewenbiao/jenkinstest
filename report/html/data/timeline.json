@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ywb",
+    "children" : [ {
+      "name" : "7188-MainThread",
+      "children" : [ {
+        "name" : "test_a",
+        "uid" : "e95a8840a5ca8662",
+        "parentUid" : "5fa611da79b436faad4e7ea1089400a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1548314949434,
+          "stop" : 1548314949434,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_b",
+        "uid" : "388ef4b28bc08bf",
+        "parentUid" : "5fa611da79b436faad4e7ea1089400a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1548314949434,
+          "stop" : 1548314949481,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5fa611da79b436faad4e7ea1089400a6"
+    } ],
+    "uid" : "12aeaf50dfdcf910bb8875267dc2acdb"
+  } ]
+}
